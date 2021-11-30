@@ -1,0 +1,1 @@
+"""Safe Crossing automated Advent Calendar tweet bot"""
