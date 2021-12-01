@@ -18,7 +18,7 @@ def get_todays_message():
     logger.debug(f"Current day: {current_day}, current day index: {current_day_index}")
 
     try:
-        message = f"{build_url_for_day(current_day)} {get_message_for(current_day_index)}"
+        message = f"{get_message_for(current_day_index)}\n{build_url_for_day(current_day)}"
         logger.debug(f"Final message: {message}")
     except NoMessageForIndexException:
         logger.warn(f"No message found for day {current_day}, aborting.")

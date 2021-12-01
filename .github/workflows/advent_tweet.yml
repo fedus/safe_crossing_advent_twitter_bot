@@ -7,7 +7,7 @@ on:
       - cron: "0 6 1-24 12 *" #runs at 06:00 UTC, 08:00 LU time, 1-24 Dec
 
 jobs:
-  eco_counter_bot:
+  advent_tweet:
 
     runs-on: ubuntu-latest
 
